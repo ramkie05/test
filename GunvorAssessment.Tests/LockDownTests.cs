@@ -34,7 +34,7 @@ namespace GunvorAssessmentTests
 		}
 
 		[Test]
-		public async Task EndLockDown_ShouldAllowAllOperations()
+		public void EndLockDown_ShouldAllowAllOperations()
 		{
 			_lockDownManager.StartLockDown();
 			_lockDownManager.EndLockDown();
