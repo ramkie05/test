@@ -22,7 +22,8 @@ namespace GunvorAssessment
 	{
 		public IAccount GetAccount(AccountType type, int accountNumber)
 		{
-			throw new NotImplementedException();
+			//throw new NotImplementedException();
+			return new Account();
 		}
 
 		public ITransactionAudit GetAudit()
