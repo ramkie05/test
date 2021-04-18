@@ -34,10 +34,10 @@ namespace GunvorAssessmentTests
 		}
 
 		[Test]
-		public void EndLockDown_ShouldAllowAllOperations()
+		public async Task EndLockDown_ShouldAllowAllOperations()
 		{
 			_lockDownManager.StartLockDown();
-			_lockDownManager.EndLockDown();
+			//_lockDownManager.EndLockDown();
 			await _account.DepositAsync(10);
 			await _account.WithdrawAsync(10);
 		}
