@@ -3,7 +3,7 @@ using System;
 
 namespace GunvorAssessment.LockDown
 {
-public class LockDown : ILockDown {
+public class LockDown : ILockDownManager {
 public void EndLockDown(){
 }
 public event EventHandler LockDownStarted(){}
