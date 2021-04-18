@@ -32,7 +32,8 @@ namespace GunvorAssessment
 
 		public ILockDownManager GetLockDownManager()
 		{
-			throw new NotImplementedException();
+			//throw new NotImplementedException();
+			return New LockDown();
 		}
 		public IDateService GetDateService()
 		{
