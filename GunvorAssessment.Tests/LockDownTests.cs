@@ -40,7 +40,7 @@ namespace GunvorAssessmentTests
 			_lockDownManager.EndLockDown();
 			await _account.DepositAsync(10);
 			await _account.WithdrawAsync(10);
-			throw new NotImplementedException();
+			//throw new NotImplementedException();
 		}
 
 		[Test]
